@@ -19,7 +19,7 @@ import os
 all = pd.read_csv(os.path.abspath("streamlit/filtered_all4.csv"))
 labels = pd.read_csv(os.path.abspath("streamlit/labels.csv"))
 labels = pd.Series(labels.category) # transform labels df to a serie
-scaled_embeddings = np.load('scaled_embeddings.npy') 
+scaled_embeddings = np.load(os.path.abspath("streamlit/scaled_embeddings.npy"))
 
 ## MODEL FOR IMAGE EMBEDDING
 # Load the VGG16 model with pre-trained weights (excluding the fully connected layers)
