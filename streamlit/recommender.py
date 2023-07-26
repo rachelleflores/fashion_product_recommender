@@ -14,8 +14,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 import os
 
 ## LOAD DATA
-
-
 all = pd.read_csv(os.path.abspath("streamlit/filtered_all4.csv"))
 labels = pd.read_csv(os.path.abspath("streamlit/labels.csv"))
 labels = pd.Series(labels.category) # transform labels df to a serie
@@ -155,6 +153,7 @@ def main():
                 # Find similar products
                 similar_products = get_similar_products(uploaded_image_embedding, scaled_embeddings)
                 with c2: 
+                    st.spinner("Loading Products")
                     st.subheader("Similar Products:")  
                     prod_details(similar_products)
                     
@@ -167,6 +166,7 @@ def main():
                 # Find similar products
                 similar_products = complete_outfit(uploaded_image_embedding, scaled_embeddings, labels)
                 with c2:
+                    st.spinner("Loading Products")
                     st.subheader("Complementary Products:")
                     prod_details(similar_products)
                                     
