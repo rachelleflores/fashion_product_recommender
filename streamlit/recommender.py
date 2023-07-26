@@ -12,8 +12,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
 ## LOAD DATA
-all = pd.read_csv('filtered_all4.csv')
-labels = pd.read_csv('labels.csv')
+all = pd.read_csv(r'/Users/rachelleflores/Documents/GitHub/fashion_product_recommender/streamlit/filtered_all4.csv')
+labels = pd.read_csv(r'/Users/rachelleflores/Documents/GitHub/fashion_product_recommender/streamlit/labels.csv')
 labels = pd.Series(labels.category) # transform labels df to a serie
 scaled_embeddings = np.load('scaled_embeddings.npy') 
 
