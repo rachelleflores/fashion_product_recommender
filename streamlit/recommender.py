@@ -17,7 +17,7 @@ import os
 
 
 all = pd.read_csv(os.path.abspath("streamlit/filtered_all4.csv"))
-labels = pd.read_csv(r'/Users/rachelleflores/Documents/GitHub/fashion_product_recommender/streamlit/labels.csv')
+labels = pd.read_csv(os.path.abspath("streamlit/labels.csv"))
 labels = pd.Series(labels.category) # transform labels df to a serie
 scaled_embeddings = np.load('scaled_embeddings.npy') 
 
