@@ -18,7 +18,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 all = pd.read_csv(r'./../data/cleaned_data/filtered_all4.csv')
 labels = pd.read_csv(r'./../data/cleaned_data/labels.csv')
 labels = pd.Series(labels.category) # transform labels df to a serie
-#images = np.load('images.npy')
 scaled_embeddings = np.load('scaled_embeddings.npy') 
 
 ## MODEL FOR IMAGE EMBEDDING
