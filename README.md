@@ -23,7 +23,7 @@ To do so, here are the steps taken:
 3. **Querying**
      - Using SQL Workbench, perform some SQL queries on gathered and cleaned dataset
 4. **Visualization**
-     - Use Tableau to visualize some relationships in terms of price ranges, brands, and categories
+     - Use [Tableau](https://public.tableau.com/views/fashion_product_distribution_twb/Dashboard22?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) to visualize some relationships in terms of price ranges, brands, and categories
 6. **Image Pre-processing**
    - Transform the images into an array
    - Apply transfer learning with the VGG16 Model to get image embeddings
