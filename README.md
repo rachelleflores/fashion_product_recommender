@@ -7,7 +7,7 @@ This project aims to create a product recommender using image similarities.
 ## PROCESS:
 To do so, here are the steps taken:
 1. **Planning**
-   - Here is a link to the Notion 
+   - Here is a link to the [Notion Task List](https://rachellef.notion.site/865707cd5fee401b9abb1c2fe50b8a1d?v=770abdde733044afba0b426f550495be)
 1. **Gather Data:**
     - Web scraping has been performed to obtain men and women's product data from the smallable website:
           a. Product Brand
