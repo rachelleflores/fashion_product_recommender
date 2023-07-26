@@ -10,14 +10,14 @@ To do so, here are the steps taken:
    - Here is a link to the [Notion Task List](https://rachellef.notion.site/865707cd5fee401b9abb1c2fe50b8a1d?v=770abdde733044afba0b426f550495be)
 2. **Gather Data:**
     - Web scraping has been performed to obtain men's and women's product data from the smallable website:
-          1. Product Brand
-          2. Brief Product Description
-          3. Price
-          4. Greenable (certifies that this item has been made from environmentally friendly materials and ingredients, and contains no chemical substances)
-          5. Product Image
-          6. Link to individual products
-          7. Category the Product Belongs to
-          8. Product Color
+    - Product Brand
+    - Brief Product Description
+    - Price
+    - Greenable (certifies that this item has been made from environmentally friendly materials and ingredients, and contains no chemical substances)
+    - Product Image
+    - Link to individual products
+    - Category the Product Belongs to
+    - Product Color
 
 3. **Data Cleaning**
 4. **Querying**
