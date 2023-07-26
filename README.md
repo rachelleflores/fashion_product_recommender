@@ -29,5 +29,5 @@ To do so, here are the steps taken:
    - Apply transfer learning with the VGG16 Model to get image embeddings
    - Use cosine similarity on the embeddings to calculate similarities between images
 7. **Product Recommender**
-8. **Streamlit App**
+8. [**Streamlit App**](https://rf-fashion-recommender.streamlit.app/)
 9. **Presentation**
