@@ -1,11 +1,9 @@
 ## LIBRARIES
 import streamlit as st
-import os
 import numpy as np
 import pandas as pd
 import math
 
-import matplotlib.pyplot as plt
 from PIL import Image
 
 from tensorflow.keras.models import Model
