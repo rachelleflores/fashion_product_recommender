@@ -1,10 +1,6 @@
 streamlit==1.23.1
 numpy==1.24.3
 pandas==2.0.1
-math
-
 PIL==9.5.0
 tensorflow==2.13.0
-
-
-scikit-learn
+sklearn==1.2.2
